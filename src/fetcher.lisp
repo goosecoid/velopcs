@@ -1,11 +1,9 @@
-(defpackage :velopcs
-  (:use :cl))
 (in-package :velopcs)
 
-(defvar *user-agent*
-  '(("User-Agent" .
-     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/600.3.18
-(KHTML, like Gecko) Version/8.0.3 Safari/600.3.18")))
+;; (defvar *user-agent*
+;;   '(("User-Agent" .
+;;      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/600.3.18
+;; (KHTML, like Gecko) Version/8.0.3 Safari/600.3.18")))
 
 (defun get-riders-table (url)
   (progn
@@ -60,10 +58,10 @@
 ;;           ;; ((string-equal slug "") "")
 ;;           (t slug))))
 
-;; (defun generate-rider-url (rider-list)
-;;   (str:concat "https://www.procyclingstats.com/rider/"
-;;               (slugify (first rider-list))
-;;               "/2023"))
+(defun generate-rider-url (rider-list)
+  (str:concat "https://www.procyclingstats.com/rider/"
+              (slugify (first rider-list))
+              "/2023"))
 
 (defun get-rider-results (url)
   (flet ((get-num-string (str)
@@ -93,7 +91,7 @@
         :team (second rider-list)
         :velo-points (third rider-list)
         :results (get-rider-results (get-rider-url-fuzzy (first rider-list)))))
-     (loop for i from 0 below (list-length riders-table-clean) by 5
+     (loop for i from 0 below (list-length riders-table-clean) by 6
            collect (loop for j from 1 below 4
                          collect (nth (+ i j) riders-table-clean))))))
 
@@ -115,7 +113,7 @@
 
 (defun get-all-rider-data (riders-list-url)
   (calculate-weighted-points
-   (get-riders-plist
+   (test
     (get-riders-table riders-list-url))))
 
 (defun search-for-rider (key)
@@ -130,5 +128,3 @@
              (lquery:$ nodes
                (inline (lquery:$ "ul.list > li > a"))
                (attr "href"))) 0)))
-
-(get-all-rider-data "https://www.velogames.com/tour-down-under/2024/riders.php")

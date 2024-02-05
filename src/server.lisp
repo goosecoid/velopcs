@@ -1,6 +1,17 @@
-(defpackage :velopcs
-  (:use :cl))
 (in-package :velopcs)
+
+(defparameter *app* (make-instance 'ningle:app))
+
+(defparameter *wrapped-app*
+  (lack:builder
+   (:static
+    :path "/static/"
+    :root #P"./www/")
+   *app*))
+
+;; (defparameter *server*
+;;   (clack:clackup *wrapped-app* :port 8888))
+;; (clack:stop *server*)
 
 (defparameter *races-list*
   (list
@@ -55,7 +66,7 @@
        (loop for (key name data) in *races-list*
              do (:option :value key name))))))
 
-(defun get-table-headings (race-key)
+(defun table-headings (race-key)
   (spinneret:with-html-string ()
     (loop for key in (get-p-list-keys
                       (first
@@ -66,7 +77,7 @@
                           px-6 py-4 text-left"
                   key))))
 
-(defun get-table-body (race-key)
+(defun table-body (race-key)
   (spinneret:with-html-string ()
     (loop for rider in (jonathan:parse
                         (caddr (assoc race-key *races-list*)))
@@ -80,7 +91,7 @@
                                        px-6 py-4 whitespace-nowrap"
                                value))))))
 
-(defun data-table (race-key)
+(defun table (race-key)
   (spinneret:with-html-string ()
     (:div :class "flex flex-col"
           (:div :class "py-2 inline-block min-w-full sm:px-6 lg:px-8"
@@ -88,9 +99,9 @@
                       (:table :class "bg-white border-p"
                               (:thead :class "bg-white border-b"
                                       (:tr
-                                       (:raw (get-table-headings race-key))))
+                                       (:raw (table-headings race-key))))
                               (:tbody
-                               (:raw (get-table-body race-key)))))))))
+                               (:raw (table-body race-key)))))))))
 
 (defun app-container ()
   (spinneret:with-html-string ()
@@ -107,8 +118,6 @@
   (reverse (loop for (key value) on plist by #'cddr
                  collect value)))
 
-(defparameter *app* (make-instance 'ningle:app))
-
 (setf (ningle:route *app* "/")
       (with-page
           (:title "Velopcs")
@@ -119,20 +128,8 @@
           (let ((race (cdar params)))
             (alexandria:switch (race :test 'equal)
               ("besseges"
-               (data-table :besseges))
+               (table :besseges))
               ("down-under"
-               (data-table :down-under))
+               (table :down-under))
               ("valencia"
-               (data-table :valencia))))))
-
-(defparameter *wrapped-app*
-  (lack:builder
-   (:static
-    :path "/static/"
-    :root #P"./www/")
-   *app*))
-
-(defparameter *server*
-  (clack:clackup *wrapped-app* :port 8888))
-
-;; (clack:stop *server*)
+               (table :valencia))))))
