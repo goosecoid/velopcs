@@ -65,6 +65,7 @@
   (dex:get
    (format nil "https://www.procyclingstats.com/search.php?term=~A" key)))
 
+;; TODO: When a rider's name is three words, try searching with first and last word
 (defun get-rider-url-fuzzy (term)
   (let ((url (format nil "https://www.procyclingstats.com/~A/2023"
                      (aref
@@ -94,11 +95,14 @@
                                 (dex:get (get-rider-url-fuzzy
                                           (cl-slug:asciify rider-name))))
                               req)))
+           ;; TODO: have a flag to know if fuzzy search was used
+           ;;(fuzzy-search-p nil)
            (pcs-nodes (lquery:$ (initialize pcs-request)))
            (pcs-text (lquery:$ pcs-nodes
                        ".rdrResultsSum"
                        (text)))
            (pcs-results (str:split "|" (aref pcs-text 0)))
+           ;; TODO: When these are empty, use fuzzy search
            (pcs-points (get-num-string (second pcs-results)))
            (uci-points (get-num-string (third pcs-results))))
       (list :pcs pcs-points

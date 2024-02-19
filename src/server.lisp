@@ -9,10 +9,12 @@
     :root #P"./www/")
    *app*))
 
+;; TODO: roswell compatible
 ;; (defparameter *server*
 ;;   (clack:clackup *wrapped-app* :port 8888))
 ;; (clack:stop *server*)
 
+;; TODO: Read files from a directory and create a generic list
 (defparameter *races-list*
   (list
    (list
@@ -128,6 +130,8 @@
           (:title "Velopcs")
         (:raw (app-container))))
 
+;; TODO: Create this route dynamically based on
+;; the *races-list* variable
 (setf (ningle:route *app* "/table")
       #'(lambda (params)
           (let ((race (cdar params)))
@@ -140,3 +144,5 @@
                (table :valencia))
               ("uae"
                (table :uae))))))
+
+;; TODO: add route that calls the fetcher with a riders url
