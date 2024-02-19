@@ -29,7 +29,12 @@
     :valencia
     "Valencia 2024"
     (uiop:read-file-string
-     #P"~/Documents/projects/velopcs/src/valencia-2024.json"))))
+     #P"~/Documents/projects/velopcs/src/valencia-2024.json"))
+   (list
+    :uae
+    "UAE Tour 2024"
+    (uiop:read-file-string
+     #P"~/Documents/projects/velopcs/src/uae-2024.json"))))
 
 (defmacro with-page ((&key title) &body body)
   `(spinneret:with-html-string ()
@@ -132,4 +137,6 @@
               ("down-under"
                (table :down-under))
               ("valencia"
-               (table :valencia))))))
+               (table :valencia))
+              ("uae"
+               (table :uae))))))

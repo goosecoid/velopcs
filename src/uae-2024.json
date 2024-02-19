@@ -1,0 +1,1262 @@
+[
+  {
+    "NAME": "Adam Yates",
+    "TEAM": "UAE Team Emirates",
+    "VELO-POINTS": 26,
+    "UCI-POINTS": 4007.86,
+    "PCS-POINTS": 1947,
+    "WEIGHTED-UCI-POINTS": 154.14847,
+    "WEIGHTED-PCS-POINTS": 74.88461
+  },
+  {
+    "NAME": "Pello Bilbao",
+    "TEAM": "Bahrain - Victorious",
+    "VELO-POINTS": 22,
+    "UCI-POINTS": 2432.14,
+    "PCS-POINTS": 1344,
+    "WEIGHTED-UCI-POINTS": 110.55181,
+    "WEIGHTED-PCS-POINTS": 61.090908
+  },
+  {
+    "NAME": "Brandon McNulty",
+    "TEAM": "UAE Team Emirates",
+    "VELO-POINTS": 20,
+    "UCI-POINTS": 1407.43,
+    "PCS-POINTS": 934,
+    "WEIGHTED-UCI-POINTS": 70.371506,
+    "WEIGHTED-PCS-POINTS": 46.7
+  },
+  {
+    "NAME": "Ben O'Connor",
+    "TEAM": "Decathlon AG2R La Mondiale Team",
+    "VELO-POINTS": 16,
+    "UCI-POINTS": 1397,
+    "PCS-POINTS": 880,
+    "WEIGHTED-UCI-POINTS": 87.3125,
+    "WEIGHTED-PCS-POINTS": 55
+  },
+  {
+    "NAME": "Ilan Van Wilder",
+    "TEAM": "Soudal - Quick Step",
+    "VELO-POINTS": 16,
+    "UCI-POINTS": 1364,
+    "PCS-POINTS": 968,
+    "WEIGHTED-UCI-POINTS": 85.25,
+    "WEIGHTED-PCS-POINTS": 60.5
+  },
+  {
+    "NAME": "Olav Kooij",
+    "TEAM": "Team Visma | Lease a Bike",
+    "VELO-POINTS": 16,
+    "UCI-POINTS": 1907.57,
+    "PCS-POINTS": 1471,
+    "WEIGHTED-UCI-POINTS": 119.22312,
+    "WEIGHTED-PCS-POINTS": 91.9375
+  },
+  {
+    "NAME": "Kaden Groves",
+    "TEAM": "Alpecin-Deceuninck",
+    "VELO-POINTS": 14,
+    "UCI-POINTS": 2043.25,
+    "PCS-POINTS": 1012,
+    "WEIGHTED-UCI-POINTS": 145.94643,
+    "WEIGHTED-PCS-POINTS": 72.28571
+  },
+  {
+    "NAME": "Tim Merlier",
+    "TEAM": "Soudal - Quick Step",
+    "VELO-POINTS": 14,
+    "UCI-POINTS": 1125.38,
+    "PCS-POINTS": 900,
+    "WEIGHTED-UCI-POINTS": 80.384285,
+    "WEIGHTED-PCS-POINTS": 64.28571
+  },
+  {
+    "NAME": "Dylan Groenewegen",
+    "TEAM": "Team Jayco AlUla",
+    "VELO-POINTS": 14,
+    "UCI-POINTS": 1329.43,
+    "PCS-POINTS": 891,
+    "WEIGHTED-UCI-POINTS": 94.95929,
+    "WEIGHTED-PCS-POINTS": 63.642857
+  },
+  {
+    "NAME": "Jay Vine",
+    "TEAM": "UAE Team Emirates",
+    "VELO-POINTS": 14,
+    "UCI-POINTS": 917.48,
+    "PCS-POINTS": 495,
+    "WEIGHTED-UCI-POINTS": 65.53429,
+    "WEIGHTED-PCS-POINTS": 35.357143
+  },
+  {
+    "NAME": "Phil Bauhaus",
+    "TEAM": "Bahrain - Victorious",
+    "VELO-POINTS": 12,
+    "UCI-POINTS": 632.14,
+    "PCS-POINTS": 409,
+    "WEIGHTED-UCI-POINTS": 52.678333,
+    "WEIGHTED-PCS-POINTS": 34.083332
+  },
+  {
+    "NAME": "Sam Welsford",
+    "TEAM": "BORA - hansgrohe",
+    "VELO-POINTS": 12,
+    "UCI-POINTS": 991.14,
+    "PCS-POINTS": 698,
+    "WEIGHTED-UCI-POINTS": 82.595,
+    "WEIGHTED-PCS-POINTS": 58.166668
+  },
+  {
+    "NAME": "Lennert Van Eetvelt",
+    "TEAM": "Lotto Dstny",
+    "VELO-POINTS": 12,
+    "UCI-POINTS": 713.25,
+    "PCS-POINTS": 451,
+    "WEIGHTED-UCI-POINTS": 59.4375,
+    "WEIGHTED-PCS-POINTS": 37.583332
+  },
+  {
+    "NAME": "Einer Rubio",
+    "TEAM": "Movistar Team",
+    "VELO-POINTS": 12,
+    "UCI-POINTS": 1134.39,
+    "PCS-POINTS": 857,
+    "WEIGHTED-UCI-POINTS": 94.5325,
+    "WEIGHTED-PCS-POINTS": 71.416664
+  },
+  {
+    "NAME": "Jan Hirt",
+    "TEAM": "Soudal - Quick Step",
+    "VELO-POINTS": 12,
+    "UCI-POINTS": 46,
+    "PCS-POINTS": 70,
+    "WEIGHTED-UCI-POINTS": 3.8333333,
+    "WEIGHTED-PCS-POINTS": 5.8333335
+  },
+  {
+    "NAME": "Mauri Vansevenant",
+    "TEAM": "Soudal - Quick Step",
+    "VELO-POINTS": 12,
+    "UCI-POINTS": 257,
+    "PCS-POINTS": 210,
+    "WEIGHTED-UCI-POINTS": 21.416666,
+    "WEIGHTED-PCS-POINTS": 17.5
+  },
+  {
+    "NAME": "Fabio Jakobsen",
+    "TEAM": "Team dsm-firmenich PostNL",
+    "VELO-POINTS": 12,
+    "UCI-POINTS": 688,
+    "PCS-POINTS": 558,
+    "WEIGHTED-UCI-POINTS": 57.333332,
+    "WEIGHTED-PCS-POINTS": 46.5
+  },
+  {
+    "NAME": "Max Poole",
+    "TEAM": "Team dsm-firmenich PostNL",
+    "VELO-POINTS": 12,
+    "UCI-POINTS": 664.5,
+    "PCS-POINTS": 446,
+    "WEIGHTED-UCI-POINTS": 55.375,
+    "WEIGHTED-PCS-POINTS": 37.166668
+  },
+  {
+    "NAME": "Attila Valter",
+    "TEAM": "Team Visma | Lease a Bike",
+    "VELO-POINTS": 12,
+    "UCI-POINTS": 794.36,
+    "PCS-POINTS": 468,
+    "WEIGHTED-UCI-POINTS": 66.19666,
+    "WEIGHTED-PCS-POINTS": 39
+  },
+  {
+    "NAME": "Arvid De Kleijn",
+    "TEAM": "Tudor Pro Cycling Team",
+    "VELO-POINTS": 12,
+    "UCI-POINTS": 680,
+    "PCS-POINTS": 625,
+    "WEIGHTED-UCI-POINTS": 56.666668,
+    "WEIGHTED-PCS-POINTS": 52.083332
+  },
+  {
+    "NAME": "Juan Sebastián Molano",
+    "TEAM": "UAE Team Emirates",
+    "VELO-POINTS": 12,
+    "UCI-POINTS": 977.48,
+    "PCS-POINTS": 649,
+    "WEIGHTED-UCI-POINTS": 81.456665,
+    "WEIGHTED-PCS-POINTS": 54.083332
+  },
+  {
+    "NAME": "Mark Cavendish",
+    "TEAM": "Astana Qazaqstan Team",
+    "VELO-POINTS": 10,
+    "UCI-POINTS": 856.29,
+    "PCS-POINTS": 439,
+    "WEIGHTED-UCI-POINTS": 85.629,
+    "WEIGHTED-PCS-POINTS": 43.9
+  },
+  {
+    "NAME": "Emanuel Buchmann",
+    "TEAM": "BORA - hansgrohe",
+    "VELO-POINTS": 10,
+    "UCI-POINTS": 490.98,
+    "PCS-POINTS": 403,
+    "WEIGHTED-UCI-POINTS": 49.098,
+    "WEIGHTED-PCS-POINTS": 40.3
+  },
+  {
+    "NAME": "Danny Van Poppel",
+    "TEAM": "BORA - hansgrohe",
+    "VELO-POINTS": 10,
+    "UCI-POINTS": 1028,
+    "PCS-POINTS": 711,
+    "WEIGHTED-UCI-POINTS": 102.8,
+    "WEIGHTED-PCS-POINTS": 71.1
+  },
+  {
+    "NAME": "Ben Zwiehoff",
+    "TEAM": "BORA - hansgrohe",
+    "VELO-POINTS": 10,
+    "UCI-POINTS": 454.98,
+    "PCS-POINTS": 443,
+    "WEIGHTED-UCI-POINTS": 45.498,
+    "WEIGHTED-PCS-POINTS": 44.3
+  },
+  {
+    "NAME": "Bruno Armirail",
+    "TEAM": "Decathlon AG2R La Mondiale Team",
+    "VELO-POINTS": 10,
+    "UCI-POINTS": 470.66,
+    "PCS-POINTS": 298,
+    "WEIGHTED-UCI-POINTS": 47.066,
+    "WEIGHTED-PCS-POINTS": 29.8
+  },
+  {
+    "NAME": "Sam Bennett",
+    "TEAM": "Decathlon AG2R La Mondiale Team",
+    "VELO-POINTS": 10,
+    "UCI-POINTS": 315,
+    "PCS-POINTS": 316,
+    "WEIGHTED-UCI-POINTS": 31.5,
+    "WEIGHTED-PCS-POINTS": 31.6
+  },
+  {
+    "NAME": "Simon Carr",
+    "TEAM": "EF Education-EasyPost",
+    "VELO-POINTS": 10,
+    "UCI-POINTS": 399.57,
+    "PCS-POINTS": 316,
+    "WEIGHTED-UCI-POINTS": 39.957,
+    "WEIGHTED-PCS-POINTS": 31.6
+  },
+  {
+    "NAME": "Elia Viviani",
+    "TEAM": "INEOS Grenadiers",
+    "VELO-POINTS": 10,
+    "UCI-POINTS": 443.86,
+    "PCS-POINTS": 315,
+    "WEIGHTED-UCI-POINTS": 44.385998,
+    "WEIGHTED-PCS-POINTS": 31.5
+  },
+  {
+    "NAME": "Arne Marit",
+    "TEAM": "Intermarché - Wanty",
+    "VELO-POINTS": 10,
+    "UCI-POINTS": 478,
+    "PCS-POINTS": 287,
+    "WEIGHTED-UCI-POINTS": 47.8,
+    "WEIGHTED-PCS-POINTS": 28.7
+  },
+  {
+    "NAME": "Louis Meintjes",
+    "TEAM": "Intermarché - Wanty",
+    "VELO-POINTS": 10,
+    "UCI-POINTS": 334,
+    "PCS-POINTS": 257,
+    "WEIGHTED-UCI-POINTS": 33.4,
+    "WEIGHTED-PCS-POINTS": 25.7
+  },
+  {
+    "NAME": "Pascal Ackermann",
+    "TEAM": "Israel - Premier Tech",
+    "VELO-POINTS": 10,
+    "UCI-POINTS": 670,
+    "PCS-POINTS": 362,
+    "WEIGHTED-UCI-POINTS": 67,
+    "WEIGHTED-PCS-POINTS": 36.2
+  },
+  {
+    "NAME": "Patrick Konrad",
+    "TEAM": "Lidl - Trek",
+    "VELO-POINTS": 10,
+    "UCI-POINTS": 657,
+    "PCS-POINTS": 388,
+    "WEIGHTED-UCI-POINTS": 65.7,
+    "WEIGHTED-PCS-POINTS": 38.8
+  },
+  {
+    "NAME": "Rémi Cavagna",
+    "TEAM": "Movistar Team",
+    "VELO-POINTS": 10,
+    "UCI-POINTS": 718.33,
+    "PCS-POINTS": 498,
+    "WEIGHTED-UCI-POINTS": 71.833,
+    "WEIGHTED-PCS-POINTS": 49.8
+  },
+  {
+    "NAME": "Fernando Gaviria",
+    "TEAM": "Movistar Team",
+    "VELO-POINTS": 10,
+    "UCI-POINTS": 617,
+    "PCS-POINTS": 429,
+    "WEIGHTED-UCI-POINTS": 61.7,
+    "WEIGHTED-PCS-POINTS": 42.9
+  },
+  {
+    "NAME": "Eddie Dunbar",
+    "TEAM": "Team Jayco AlUla",
+    "VELO-POINTS": 10,
+    "UCI-POINTS": 798,
+    "PCS-POINTS": 451,
+    "WEIGHTED-UCI-POINTS": 79.8,
+    "WEIGHTED-PCS-POINTS": 45.1
+  },
+  {
+    "NAME": "Michael Storer",
+    "TEAM": "Tudor Pro Cycling Team",
+    "VELO-POINTS": 10,
+    "UCI-POINTS": 563.5,
+    "PCS-POINTS": 370,
+    "WEIGHTED-UCI-POINTS": 56.35,
+    "WEIGHTED-PCS-POINTS": 37
+  },
+  {
+    "NAME": "Mikkel Bjerg",
+    "TEAM": "UAE Team Emirates",
+    "VELO-POINTS": 10,
+    "UCI-POINTS": 701.29,
+    "PCS-POINTS": 445,
+    "WEIGHTED-UCI-POINTS": 70.129,
+    "WEIGHTED-PCS-POINTS": 44.5
+  },
+  {
+    "NAME": "Gleb Syritsa",
+    "TEAM": "Astana Qazaqstan Team",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 93,
+    "PCS-POINTS": 149,
+    "WEIGHTED-UCI-POINTS": 11.625,
+    "WEIGHTED-PCS-POINTS": 18.625
+  },
+  {
+    "NAME": "Harold Tejada",
+    "TEAM": "Astana Qazaqstan Team",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 337.29,
+    "PCS-POINTS": 265,
+    "WEIGHTED-UCI-POINTS": 42.16125,
+    "WEIGHTED-PCS-POINTS": 33.125
+  },
+  {
+    "NAME": "Nikias Arndt",
+    "TEAM": "Bahrain - Victorious",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 192.14,
+    "PCS-POINTS": 166,
+    "WEIGHTED-UCI-POINTS": 24.0175,
+    "WEIGHTED-PCS-POINTS": 20.75
+  },
+  {
+    "NAME": "Torstein Træen",
+    "TEAM": "Bahrain - Victorious",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 315,
+    "PCS-POINTS": 269,
+    "WEIGHTED-UCI-POINTS": 39.375,
+    "WEIGHTED-PCS-POINTS": 33.625
+  },
+  {
+    "NAME": "Stanisław Aniołkowski",
+    "TEAM": "Cofidis",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 309,
+    "PCS-POINTS": 225,
+    "WEIGHTED-UCI-POINTS": 38.625,
+    "WEIGHTED-PCS-POINTS": 28.125
+  },
+  {
+    "NAME": "Kenny Elissonde",
+    "TEAM": "Cofidis",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 129,
+    "PCS-POINTS": 123,
+    "WEIGHTED-UCI-POINTS": 16.125,
+    "WEIGHTED-PCS-POINTS": 15.375
+  },
+  {
+    "NAME": "Milan Fretin",
+    "TEAM": "Cofidis",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 185,
+    "PCS-POINTS": 139,
+    "WEIGHTED-UCI-POINTS": 23.125,
+    "WEIGHTED-PCS-POINTS": 17.375
+  },
+  {
+    "NAME": "Jakub Mareczko",
+    "TEAM": "Corratec",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 260,
+    "PCS-POINTS": 193,
+    "WEIGHTED-UCI-POINTS": 32.5,
+    "WEIGHTED-PCS-POINTS": 24.125
+  },
+  {
+    "NAME": "Mark Stewart",
+    "TEAM": "Corratec",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 256,
+    "PCS-POINTS": 191,
+    "WEIGHTED-UCI-POINTS": 32,
+    "WEIGHTED-PCS-POINTS": 23.875
+  },
+  {
+    "NAME": "Nicolas Prodhomme",
+    "TEAM": "Decathlon AG2R La Mondiale Team",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 267,
+    "PCS-POINTS": 227,
+    "WEIGHTED-UCI-POINTS": 33.375,
+    "WEIGHTED-PCS-POINTS": 28.375
+  },
+  {
+    "NAME": "Stefan De Bod",
+    "TEAM": "EF Education-EasyPost",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 187.57,
+    "PCS-POINTS": 169,
+    "WEIGHTED-UCI-POINTS": 23.44625,
+    "WEIGHTED-PCS-POINTS": 21.125
+  },
+  {
+    "NAME": "Sean Quinn",
+    "TEAM": "EF Education-EasyPost",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 141.88,
+    "PCS-POINTS": 155,
+    "WEIGHTED-UCI-POINTS": 17.735,
+    "WEIGHTED-PCS-POINTS": 19.375
+  },
+  {
+    "NAME": "Georg Steinhauser",
+    "TEAM": "EF Education-EasyPost",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 310.57,
+    "PCS-POINTS": 223,
+    "WEIGHTED-UCI-POINTS": 38.82125,
+    "WEIGHTED-PCS-POINTS": 27.875
+  },
+  {
+    "NAME": "Tobias Foss",
+    "TEAM": "INEOS Grenadiers",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 264.57,
+    "PCS-POINTS": 214,
+    "WEIGHTED-UCI-POINTS": 33.07125,
+    "WEIGHTED-PCS-POINTS": 26.75
+  },
+  {
+    "NAME": "Alexy Faure Prost",
+    "TEAM": "Intermarché - Wanty",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 96,
+    "PCS-POINTS": 31,
+    "WEIGHTED-UCI-POINTS": 12,
+    "WEIGHTED-PCS-POINTS": 3.875
+  },
+  {
+    "NAME": "George Bennett",
+    "TEAM": "Israel - Premier Tech",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 318.43,
+    "PCS-POINTS": 247,
+    "WEIGHTED-UCI-POINTS": 39.80375,
+    "WEIGHTED-PCS-POINTS": 30.875
+  },
+  {
+    "NAME": "Matthew Riccitello",
+    "TEAM": "Israel - Premier Tech",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 219,
+    "PCS-POINTS": 160,
+    "WEIGHTED-UCI-POINTS": 27.375,
+    "WEIGHTED-PCS-POINTS": 20
+  },
+  {
+    "NAME": "Simone Consonni",
+    "TEAM": "Lidl - Trek",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 312,
+    "PCS-POINTS": 181,
+    "WEIGHTED-UCI-POINTS": 39,
+    "WEIGHTED-PCS-POINTS": 22.625
+  },
+  {
+    "NAME": "Juan Pedro López",
+    "TEAM": "Lidl - Trek",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 142,
+    "PCS-POINTS": 154,
+    "WEIGHTED-UCI-POINTS": 17.75,
+    "WEIGHTED-PCS-POINTS": 19.25
+  },
+  {
+    "NAME": "Carlos Verona",
+    "TEAM": "Lidl - Trek",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 188.14,
+    "PCS-POINTS": 158,
+    "WEIGHTED-UCI-POINTS": 23.5175,
+    "WEIGHTED-PCS-POINTS": 19.75
+  },
+  {
+    "NAME": "Jarne Van De Paar",
+    "TEAM": "Lotto Dstny",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 313,
+    "PCS-POINTS": 237,
+    "WEIGHTED-UCI-POINTS": 39.125,
+    "WEIGHTED-PCS-POINTS": 29.625
+  },
+  {
+    "NAME": "Harm Vanhoucke",
+    "TEAM": "Lotto Dstny",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 111.14,
+    "PCS-POINTS": 122,
+    "WEIGHTED-UCI-POINTS": 13.8925,
+    "WEIGHTED-PCS-POINTS": 15.25
+  },
+  {
+    "NAME": "Pelayo Sánchez",
+    "TEAM": "Movistar Team",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 387,
+    "PCS-POINTS": 237,
+    "WEIGHTED-UCI-POINTS": 48.375,
+    "WEIGHTED-PCS-POINTS": 29.625
+  },
+  {
+    "NAME": "Tobias Lund Andresen",
+    "TEAM": "Team dsm-firmenich PostNL",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 339.14,
+    "PCS-POINTS": 281,
+    "WEIGHTED-UCI-POINTS": 42.3925,
+    "WEIGHTED-PCS-POINTS": 35.125
+  },
+  {
+    "NAME": "Luka Mezgec",
+    "TEAM": "Team Jayco AlUla",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 346.43,
+    "PCS-POINTS": 224,
+    "WEIGHTED-UCI-POINTS": 43.30375,
+    "WEIGHTED-PCS-POINTS": 28
+  },
+  {
+    "NAME": "Jesús David Peña",
+    "TEAM": "Team Jayco AlUla",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 277,
+    "PCS-POINTS": 276,
+    "WEIGHTED-UCI-POINTS": 34.625,
+    "WEIGHTED-PCS-POINTS": 34.5
+  },
+  {
+    "NAME": "Tim Van Dijke",
+    "TEAM": "Team Visma | Lease a Bike",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 362.33,
+    "PCS-POINTS": 258,
+    "WEIGHTED-UCI-POINTS": 45.29125,
+    "WEIGHTED-PCS-POINTS": 32.25
+  },
+  {
+    "NAME": "Rick Pluimers",
+    "TEAM": "Tudor Pro Cycling Team",
+    "VELO-POINTS": 8,
+    "UCI-POINTS": 134,
+    "PCS-POINTS": 134,
+    "WEIGHTED-UCI-POINTS": 16.75,
+    "WEIGHTED-PCS-POINTS": 16.75
+  },
+  {
+    "NAME": "Maurice Ballerstedt",
+    "TEAM": "Alpecin-Deceuninck",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 80.25,
+    "PCS-POINTS": 71,
+    "WEIGHTED-UCI-POINTS": 13.375,
+    "WEIGHTED-PCS-POINTS": 11.833333
+  },
+  {
+    "NAME": "Silvan Dillier",
+    "TEAM": "Alpecin-Deceuninck",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 62,
+    "PCS-POINTS": 78,
+    "WEIGHTED-UCI-POINTS": 10.333333,
+    "WEIGHTED-PCS-POINTS": 13
+  },
+  {
+    "NAME": "Jason Osborne",
+    "TEAM": "Alpecin-Deceuninck",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 158.25,
+    "PCS-POINTS": 161,
+    "WEIGHTED-UCI-POINTS": 26.375,
+    "WEIGHTED-PCS-POINTS": 26.833334
+  },
+  {
+    "NAME": "Jonas Rickaert",
+    "TEAM": "Alpecin-Deceuninck",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 156,
+    "PCS-POINTS": 119,
+    "WEIGHTED-UCI-POINTS": 26,
+    "WEIGHTED-PCS-POINTS": 19.833334
+  },
+  {
+    "NAME": "Henri Uhlig",
+    "TEAM": "Alpecin-Deceuninck",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 137,
+    "PCS-POINTS": 67,
+    "WEIGHTED-UCI-POINTS": 22.833334,
+    "WEIGHTED-PCS-POINTS": 11.166667
+  },
+  {
+    "NAME": "Michele Gazzoli",
+    "TEAM": "Astana Qazaqstan Team",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 85,
+    "PCS-POINTS": 84,
+    "WEIGHTED-UCI-POINTS": 14.166667,
+    "WEIGHTED-PCS-POINTS": 14
+  },
+  {
+    "NAME": "Harold Martin López",
+    "TEAM": "Astana Qazaqstan Team",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 91,
+    "PCS-POINTS": 98,
+    "WEIGHTED-UCI-POINTS": 15.166667,
+    "WEIGHTED-PCS-POINTS": 16.333334
+  },
+  {
+    "NAME": "Michael Mørkøv",
+    "TEAM": "Astana Qazaqstan Team",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 50,
+    "PCS-POINTS": 66,
+    "WEIGHTED-UCI-POINTS": 8.333333,
+    "WEIGHTED-PCS-POINTS": 11
+  },
+  {
+    "NAME": "Rainer Kepplinger",
+    "TEAM": "Bahrain - Victorious",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 84.71,
+    "PCS-POINTS": 99,
+    "WEIGHTED-UCI-POINTS": 14.118333,
+    "WEIGHTED-PCS-POINTS": 16.5
+  },
+  {
+    "NAME": "Patrick Gamper",
+    "TEAM": "BORA - hansgrohe",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 186.86,
+    "PCS-POINTS": 109,
+    "WEIGHTED-UCI-POINTS": 31.143333,
+    "WEIGHTED-PCS-POINTS": 18.166666
+  },
+  {
+    "NAME": "Rubén Fernández",
+    "TEAM": "Cofidis",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 129.75,
+    "PCS-POINTS": 114,
+    "WEIGHTED-UCI-POINTS": 21.625,
+    "WEIGHTED-PCS-POINTS": 19
+  },
+  {
+    "NAME": "Eddy Finé",
+    "TEAM": "Cofidis",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 214,
+    "PCS-POINTS": 131,
+    "WEIGHTED-UCI-POINTS": 35.666668,
+    "WEIGHTED-PCS-POINTS": 21.833334
+  },
+  {
+    "NAME": "Christophe Noppe",
+    "TEAM": "Cofidis",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 65,
+    "PCS-POINTS": 71,
+    "WEIGHTED-UCI-POINTS": 10.833333,
+    "WEIGHTED-PCS-POINTS": 11.833333
+  },
+  {
+    "NAME": "Marco Murgano",
+    "TEAM": "Corratec",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 103,
+    "PCS-POINTS": 80,
+    "WEIGHTED-UCI-POINTS": 17.166666,
+    "WEIGHTED-PCS-POINTS": 13.333333
+  },
+  {
+    "NAME": "Attilio Viviani",
+    "TEAM": "Corratec",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 103,
+    "PCS-POINTS": 117,
+    "WEIGHTED-UCI-POINTS": 17.166666,
+    "WEIGHTED-PCS-POINTS": 19.5
+  },
+  {
+    "NAME": "Valentin Paret-Peintre",
+    "TEAM": "Decathlon AG2R La Mondiale Team",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 188,
+    "PCS-POINTS": 125,
+    "WEIGHTED-UCI-POINTS": 31.333334,
+    "WEIGHTED-PCS-POINTS": 20.833334
+  },
+  {
+    "NAME": "Jardi Christiaan Van Der Lee",
+    "TEAM": "EF Education-EasyPost",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 50,
+    "PCS-POINTS": 39,
+    "WEIGHTED-UCI-POINTS": 8.333333,
+    "WEIGHTED-PCS-POINTS": 6.5
+  },
+  {
+    "NAME": "Brandon Smith Rivera",
+    "TEAM": "INEOS Grenadiers",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 111,
+    "PCS-POINTS": 95,
+    "WEIGHTED-UCI-POINTS": 18.5,
+    "WEIGHTED-PCS-POINTS": 15.833333
+  },
+  {
+    "NAME": "Óscar Rodríguez",
+    "TEAM": "INEOS Grenadiers",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 25,
+    "PCS-POINTS": 39,
+    "WEIGHTED-UCI-POINTS": 4.1666665,
+    "WEIGHTED-PCS-POINTS": 6.5
+  },
+  {
+    "NAME": "Ben Swift",
+    "TEAM": "INEOS Grenadiers",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 20.15,
+    "PCS-POINTS": 73,
+    "WEIGHTED-UCI-POINTS": 3.3583333,
+    "WEIGHTED-PCS-POINTS": 12.166667
+  },
+  {
+    "NAME": "Kevin Colleoni",
+    "TEAM": "Intermarché - Wanty",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 15,
+    "PCS-POINTS": 22,
+    "WEIGHTED-UCI-POINTS": 2.5,
+    "WEIGHTED-PCS-POINTS": 3.6666667
+  },
+  {
+    "NAME": "Boy Van Poppel",
+    "TEAM": "Intermarché - Wanty",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 101.88,
+    "PCS-POINTS": 73,
+    "WEIGHTED-UCI-POINTS": 16.98,
+    "WEIGHTED-PCS-POINTS": 12.166667
+  },
+  {
+    "NAME": "Oded Kogut",
+    "TEAM": "Israel - Premier Tech",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 191,
+    "PCS-POINTS": 66,
+    "WEIGHTED-UCI-POINTS": 31.833334,
+    "WEIGHTED-PCS-POINTS": 11
+  },
+  {
+    "NAME": "Rick Zabel",
+    "TEAM": "Israel - Premier Tech",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 20,
+    "PCS-POINTS": 20,
+    "WEIGHTED-UCI-POINTS": 3.3333333,
+    "WEIGHTED-PCS-POINTS": 3.3333333
+  },
+  {
+    "NAME": "Jacopo Mosca",
+    "TEAM": "Lidl - Trek",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 74.14,
+    "PCS-POINTS": 96,
+    "WEIGHTED-UCI-POINTS": 12.356667,
+    "WEIGHTED-PCS-POINTS": 16
+  },
+  {
+    "NAME": "Natnael Tesfatsion",
+    "TEAM": "Lidl - Trek",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 333,
+    "PCS-POINTS": 219,
+    "WEIGHTED-UCI-POINTS": 55.5,
+    "WEIGHTED-PCS-POINTS": 36.5
+  },
+  {
+    "NAME": "Thomas De Gendt",
+    "TEAM": "Lotto Dstny",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 3.25,
+    "PCS-POINTS": 40,
+    "WEIGHTED-UCI-POINTS": 0.5416667,
+    "WEIGHTED-PCS-POINTS": 6.6666665
+  },
+  {
+    "NAME": "Jacopo Guarnieri",
+    "TEAM": "Lotto Dstny",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 0,
+    "PCS-POINTS": 15,
+    "WEIGHTED-UCI-POINTS": 0,
+    "WEIGHTED-PCS-POINTS": 2.5
+  },
+  {
+    "NAME": "Davide Cimolai",
+    "TEAM": "Movistar Team",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 159.75,
+    "PCS-POINTS": 104,
+    "WEIGHTED-UCI-POINTS": 26.625,
+    "WEIGHTED-PCS-POINTS": 17.333334
+  },
+  {
+    "NAME": "Lorenzo Milesi",
+    "TEAM": "Movistar Team",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 279.5,
+    "PCS-POINTS": 136,
+    "WEIGHTED-UCI-POINTS": 46.583332,
+    "WEIGHTED-PCS-POINTS": 22.666666
+  },
+  {
+    "NAME": "Iván Romeo",
+    "TEAM": "Movistar Team",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 193.33,
+    "PCS-POINTS": 99,
+    "WEIGHTED-UCI-POINTS": 32.22167,
+    "WEIGHTED-PCS-POINTS": 16.5
+  },
+  {
+    "NAME": "Bert Van Lerberghe",
+    "TEAM": "Soudal - Quick Step",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 138.71,
+    "PCS-POINTS": 149,
+    "WEIGHTED-UCI-POINTS": 23.118334,
+    "WEIGHTED-PCS-POINTS": 24.833334
+  },
+  {
+    "NAME": "Jordi Warlop",
+    "TEAM": "Soudal - Quick Step",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 199,
+    "PCS-POINTS": 119,
+    "WEIGHTED-UCI-POINTS": 33.166668,
+    "WEIGHTED-PCS-POINTS": 19.833334
+  },
+  {
+    "NAME": "Alex Edmondson",
+    "TEAM": "Team dsm-firmenich PostNL",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 132.14,
+    "PCS-POINTS": 160,
+    "WEIGHTED-UCI-POINTS": 22.023333,
+    "WEIGHTED-PCS-POINTS": 26.666666
+  },
+  {
+    "NAME": "Julius Van Den Berg",
+    "TEAM": "Team dsm-firmenich PostNL",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 37.88,
+    "PCS-POINTS": 80,
+    "WEIGHTED-UCI-POINTS": 6.3133335,
+    "WEIGHTED-PCS-POINTS": 13.333333
+  },
+  {
+    "NAME": "Jan Maas",
+    "TEAM": "Team Jayco AlUla",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 26.43,
+    "PCS-POINTS": 68,
+    "WEIGHTED-UCI-POINTS": 4.405,
+    "WEIGHTED-PCS-POINTS": 11.333333
+  },
+  {
+    "NAME": "Kelland O'Brien",
+    "TEAM": "Team Jayco AlUla",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 74.29,
+    "PCS-POINTS": 87,
+    "WEIGHTED-UCI-POINTS": 12.381667,
+    "WEIGHTED-PCS-POINTS": 14.5
+  },
+  {
+    "NAME": "Elmar Reinders",
+    "TEAM": "Team Jayco AlUla",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 26.43,
+    "PCS-POINTS": 82,
+    "WEIGHTED-UCI-POINTS": 4.405,
+    "WEIGHTED-PCS-POINTS": 13.666667
+  },
+  {
+    "NAME": "Bart Lemmen",
+    "TEAM": "Team Visma | Lease a Bike",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 206,
+    "PCS-POINTS": 121,
+    "WEIGHTED-UCI-POINTS": 34.333332,
+    "WEIGHTED-PCS-POINTS": 20.166666
+  },
+  {
+    "NAME": "Tosh Van Der Sande",
+    "TEAM": "Team Visma | Lease a Bike",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 18,
+    "PCS-POINTS": 55,
+    "WEIGHTED-UCI-POINTS": 3,
+    "WEIGHTED-PCS-POINTS": 9.166667
+  },
+  {
+    "NAME": "Mick Van Dijke",
+    "TEAM": "Team Visma | Lease a Bike",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 43,
+    "PCS-POINTS": 59,
+    "WEIGHTED-UCI-POINTS": 7.1666665,
+    "WEIGHTED-PCS-POINTS": 9.833333
+  },
+  {
+    "NAME": "Florian Stork",
+    "TEAM": "Tudor Pro Cycling Team",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 58,
+    "PCS-POINTS": 68,
+    "WEIGHTED-UCI-POINTS": 9.666667,
+    "WEIGHTED-PCS-POINTS": 11.333333
+  },
+  {
+    "NAME": "Maikel Zijlaard",
+    "TEAM": "Tudor Pro Cycling Team",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 147,
+    "PCS-POINTS": 120,
+    "WEIGHTED-UCI-POINTS": 24.5,
+    "WEIGHTED-PCS-POINTS": 20
+  },
+  {
+    "NAME": "Ivo Oliveira",
+    "TEAM": "UAE Team Emirates",
+    "VELO-POINTS": 6,
+    "UCI-POINTS": 271.43,
+    "PCS-POINTS": 167,
+    "WEIGHTED-UCI-POINTS": 45.23833,
+    "WEIGHTED-PCS-POINTS": 27.833334
+  },
+  {
+    "NAME": "Fabio Van Den Bossche",
+    "TEAM": "Alpecin-Deceuninck",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 33,
+    "PCS-POINTS": 65,
+    "WEIGHTED-UCI-POINTS": 8.25,
+    "WEIGHTED-PCS-POINTS": 16.25
+  },
+  {
+    "NAME": "Dmitriy Gruzdev",
+    "TEAM": "Astana Qazaqstan Team",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 210.62,
+    "PCS-POINTS": 157,
+    "WEIGHTED-UCI-POINTS": 52.655,
+    "WEIGHTED-PCS-POINTS": 39.25
+  },
+  {
+    "NAME": "Johan Price-Pejtersen",
+    "TEAM": "Bahrain - Victorious",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 22.14,
+    "PCS-POINTS": 38,
+    "WEIGHTED-UCI-POINTS": 5.535,
+    "WEIGHTED-PCS-POINTS": 9.5
+  },
+  {
+    "NAME": "Cameron Scott",
+    "TEAM": "Bahrain - Victorious",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 0,
+    "PCS-POINTS": 22,
+    "WEIGHTED-UCI-POINTS": 0,
+    "WEIGHTED-PCS-POINTS": 5.5
+  },
+  {
+    "NAME": "Filip Maciejuk",
+    "TEAM": "BORA - hansgrohe",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 96.71,
+    "PCS-POINTS": 45,
+    "WEIGHTED-UCI-POINTS": 24.1775,
+    "WEIGHTED-PCS-POINTS": 11.25
+  },
+  {
+    "NAME": "Ryan Mullen",
+    "TEAM": "BORA - hansgrohe",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 50,
+    "PCS-POINTS": 74,
+    "WEIGHTED-UCI-POINTS": 12.5,
+    "WEIGHTED-PCS-POINTS": 18.5
+  },
+  {
+    "NAME": "Hugo Toumire",
+    "TEAM": "Cofidis",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 11,
+    "PCS-POINTS": 30,
+    "WEIGHTED-UCI-POINTS": 2.75,
+    "WEIGHTED-PCS-POINTS": 7.5
+  },
+  {
+    "NAME": "Alessandro Monaco",
+    "TEAM": "Corratec",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 32,
+    "PCS-POINTS": 27,
+    "WEIGHTED-UCI-POINTS": 8,
+    "WEIGHTED-PCS-POINTS": 6.75
+  },
+  {
+    "NAME": "Andrii Ponomar",
+    "TEAM": "Corratec",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 47,
+    "PCS-POINTS": 31,
+    "WEIGHTED-UCI-POINTS": 11.75,
+    "WEIGHTED-PCS-POINTS": 7.75
+  },
+  {
+    "NAME": "Samuele Zambelli",
+    "TEAM": "Corratec",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 8,
+    "PCS-POINTS": 6,
+    "WEIGHTED-UCI-POINTS": 2,
+    "WEIGHTED-PCS-POINTS": 1.5
+  },
+  {
+    "NAME": "Gianluca Pollefliet",
+    "TEAM": "Decathlon AG2R La Mondiale Team",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 160,
+    "PCS-POINTS": 51,
+    "WEIGHTED-UCI-POINTS": 40,
+    "WEIGHTED-PCS-POINTS": 12.75
+  },
+  {
+    "NAME": "Valentin Retailleau",
+    "TEAM": "Decathlon AG2R La Mondiale Team",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 3,
+    "PCS-POINTS": 17,
+    "WEIGHTED-UCI-POINTS": 0.75,
+    "WEIGHTED-PCS-POINTS": 4.25
+  },
+  {
+    "NAME": "Markel Beloki",
+    "TEAM": "EF Education-EasyPost",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 0,
+    "PCS-POINTS": 128,
+    "WEIGHTED-UCI-POINTS": 0,
+    "WEIGHTED-PCS-POINTS": 32
+  },
+  {
+    "NAME": "Jack Rootkin-Gray",
+    "TEAM": "EF Education-EasyPost",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 204,
+    "PCS-POINTS": 72,
+    "WEIGHTED-UCI-POINTS": 51,
+    "WEIGHTED-PCS-POINTS": 18
+  },
+  {
+    "NAME": "Andrew August",
+    "TEAM": "INEOS Grenadiers",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 0,
+    "PCS-POINTS": 453,
+    "WEIGHTED-UCI-POINTS": 0,
+    "WEIGHTED-PCS-POINTS": 113.25
+  },
+  {
+    "NAME": "Michael Leonard",
+    "TEAM": "INEOS Grenadiers",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 45,
+    "PCS-POINTS": 5,
+    "WEIGHTED-UCI-POINTS": 11.25,
+    "WEIGHTED-PCS-POINTS": 1.25
+  },
+  {
+    "NAME": "Tom Paquot",
+    "TEAM": "Intermarché - Wanty",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 5,
+    "PCS-POINTS": 20,
+    "WEIGHTED-UCI-POINTS": 1.25,
+    "WEIGHTED-PCS-POINTS": 5
+  },
+  {
+    "NAME": "Gijs Van Hoecke",
+    "TEAM": "Intermarché - Wanty",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 20,
+    "PCS-POINTS": 16,
+    "WEIGHTED-UCI-POINTS": 5,
+    "WEIGHTED-PCS-POINTS": 4
+  },
+  {
+    "NAME": "Michael Schwarzmann",
+    "TEAM": "Israel - Premier Tech",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 57,
+    "PCS-POINTS": 80,
+    "WEIGHTED-UCI-POINTS": 14.25,
+    "WEIGHTED-PCS-POINTS": 20
+  },
+  {
+    "NAME": "Mads Würtz Schmidt",
+    "TEAM": "Israel - Premier Tech",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 30,
+    "PCS-POINTS": 39,
+    "WEIGHTED-UCI-POINTS": 7.5,
+    "WEIGHTED-PCS-POINTS": 9.75
+  },
+  {
+    "NAME": "Dario Cataldo",
+    "TEAM": "Lidl - Trek",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 0,
+    "PCS-POINTS": 20,
+    "WEIGHTED-UCI-POINTS": 0,
+    "WEIGHTED-PCS-POINTS": 5
+  },
+  {
+    "NAME": "Johannes Adamietz",
+    "TEAM": "Lotto Dstny",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 13,
+    "PCS-POINTS": 27,
+    "WEIGHTED-UCI-POINTS": 3.25,
+    "WEIGHTED-PCS-POINTS": 6.75
+  },
+  {
+    "NAME": "Henri Vandenabeele",
+    "TEAM": "Lotto Dstny",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 3,
+    "PCS-POINTS": 5,
+    "WEIGHTED-UCI-POINTS": 0.75,
+    "WEIGHTED-PCS-POINTS": 1.25
+  },
+  {
+    "NAME": "Ayco Bastiaens",
+    "TEAM": "Soudal - Quick Step",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 0,
+    "PCS-POINTS": 0,
+    "WEIGHTED-UCI-POINTS": 0,
+    "WEIGHTED-PCS-POINTS": 0
+  },
+  {
+    "NAME": "Enzo Leijnse",
+    "TEAM": "Team dsm-firmenich PostNL",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 32,
+    "PCS-POINTS": 5,
+    "WEIGHTED-UCI-POINTS": 8,
+    "WEIGHTED-PCS-POINTS": 1.25
+  },
+  {
+    "NAME": "Timo Roosen",
+    "TEAM": "Team dsm-firmenich PostNL",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 2,
+    "PCS-POINTS": 35,
+    "WEIGHTED-UCI-POINTS": 0.5,
+    "WEIGHTED-PCS-POINTS": 8.75
+  },
+  {
+    "NAME": "Loe Van Belle",
+    "TEAM": "Team Visma | Lease a Bike",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 63,
+    "PCS-POINTS": 29,
+    "WEIGHTED-UCI-POINTS": 15.75,
+    "WEIGHTED-PCS-POINTS": 7.25
+  },
+  {
+    "NAME": "Nils Brun",
+    "TEAM": "Tudor Pro Cycling Team",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 28,
+    "PCS-POINTS": 16,
+    "WEIGHTED-UCI-POINTS": 7,
+    "WEIGHTED-PCS-POINTS": 4
+  },
+  {
+    "NAME": "Sebastian Kolze Changizi",
+    "TEAM": "Tudor Pro Cycling Team",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 8,
+    "PCS-POINTS": 17,
+    "WEIGHTED-UCI-POINTS": 2,
+    "WEIGHTED-PCS-POINTS": 4.25
+  },
+  {
+    "NAME": "Vegard Stake Laengen",
+    "TEAM": "UAE Team Emirates",
+    "VELO-POINTS": 4,
+    "UCI-POINTS": 20.43,
+    "PCS-POINTS": 55,
+    "WEIGHTED-UCI-POINTS": 5.1075,
+    "WEIGHTED-PCS-POINTS": 13.75
+  }
+]

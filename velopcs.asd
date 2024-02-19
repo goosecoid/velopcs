@@ -14,7 +14,7 @@
                )
   :components ((:module "src"
                 :components
-                ((:file "main")
+                ((:file "package")
                  (:file "fetcher")
                  (:file "server"))))
   :description "Calculate your ultimate meme veloteam"
