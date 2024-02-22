@@ -53,7 +53,13 @@
           ((string-equal slug "jesus-david-pena") "jesus-david-pena-jimenez")
           ((string-equal slug "brandon-smith-rivera") "brandon-smith-rivera-vargas")
           ((string-equal slug "michael-leonard") "michael-leonard1")
-          ;; ((string-equal slug "") "")
+          ((string-equal slug "carlos-rodriguez") "carlos-rodriguez-cano")
+          ((string-equal slug "samuel-fernandez") "samuel-fernandez-garcia")
+          ((string-equal slug "pedro-pinto") "pedro-pinto2")
+          ((string-equal slug "guillermo-garcia") "guillermo-garcia-janeiro")
+          ((string-equal slug "rafael-barbas") "rafael-elvas-barbas")
+          ((string-equal slug "angel-sanchez") "angel-sanchez-rebollido")
+          ;; ((string-equal slug "guillermo-garcia") "guillermo-garcia-janeiro")
           (t slug))))
 
 (defun generate-rider-url (rider-name)
@@ -65,18 +71,24 @@
   (dex:get
    (format nil "https://www.procyclingstats.com/search.php?term=~A" key)))
 
-;; TODO: When a rider's name is three words, try searching with first and last word
 (defun get-rider-url-fuzzy (term)
-  (let ((url (format nil "https://www.procyclingstats.com/~A/2023"
-                     (aref
-                      (let* ((request (search-for-rider term))
-                             (nodes (lquery:$ (initialize request))))
-                        (lquery:$ nodes
-                          (inline (lquery:$ "ul.list > li > a"))
-                          (attr "href"))) 0))))
-    (progn
-      (format t "Url found: ~A~%" url)
-      url)))
+  (flet ((fetch-url (term)
+           (format
+            nil
+            "https://www.procyclingstats.com/~A/2023"
+            (aref
+             (let* ((request (search-for-rider term))
+                    (nodes (lquery:$ (initialize request))))
+               (lquery:$ nodes
+                 (inline (lquery:$ "ul.list > li > a"))
+                 (attr "href"))) 0))))
+    (let* ((url (fetch-url term))
+           (new-term (str:concat (first (str:split " " term))
+                                 " "
+                                 (car (last (str:split " " term))))))
+      (if (string= url "https://www.procyclingstats.com/0/2023")
+          (fetch-url new-term)
+          url))))
 
 (defun check-if-rider-not-found (req)
   (string= "Page not found"
@@ -85,28 +97,42 @@
                      (inline (lquery:$ "h1"))
                      (text)) 0))))
 
+(defun fetch-rider-page (rider-name)
+  (let ((req (dex:get (generate-rider-url rider-name))))
+    (if (check-if-rider-not-found req)
+        (dex:get (get-rider-url-fuzzy
+                  (cl-slug:asciify rider-name)))
+        req)))
+
 (defun get-rider-results (rider-name)
-  (flet ((get-num-string (str)
-           (str:trim (second (str:split ":" str)))))
-    (let* ((pcs-request (let ((req (dex:get (generate-rider-url rider-name))))
-                          (if (check-if-rider-not-found req)
-                              (progn
-                                (format t "Rider ~A not found, using fuzzy search...~%" rider-name)
-                                (dex:get (get-rider-url-fuzzy
-                                          (cl-slug:asciify rider-name))))
-                              req)))
-           ;; TODO: have a flag to know if fuzzy search was used
-           ;;(fuzzy-search-p nil)
-           (pcs-nodes (lquery:$ (initialize pcs-request)))
-           (pcs-text (lquery:$ pcs-nodes
-                       ".rdrResultsSum"
-                       (text)))
-           (pcs-results (str:split "|" (aref pcs-text 0)))
-           ;; TODO: When these are empty, use fuzzy search
-           (pcs-points (get-num-string (second pcs-results)))
-           (uci-points (get-num-string (third pcs-results))))
-      (list :pcs pcs-points
-            :uci uci-points))))
+  (flet
+      ((get-points (req)
+         (flet
+             ((get-num-string (str)
+                (str:trim (second (str:split ":" str)))))
+           (let* ((nodes (lquery:$ (initialize req)))
+                  (text (lquery:$ nodes
+                          ".rdrResultsSum"
+                          (text)))
+                  (results (str:split "|" (aref text 0))))
+             (list :pcs (get-num-string (second results))
+                   :uci (get-num-string (third results)))))))
+    (let*
+        ((fuzzy-search-p nil)
+         (pcs-request (fetch-rider-page rider-name))
+         (pcs-points (get-points pcs-request)))
+      (if (and (getf pcs-points :pcs)
+               (getf pcs-points :uci))
+          pcs-points
+          (if fuzzy-search-p
+              (list :pcs "0"
+                    :uci "0")
+              (progn
+                (setf fuzzy-search-p t)
+                (setf pcs-request (dex:get
+                                   (get-rider-url-fuzzy
+                                    (cl-slug:asciify rider-name))))
+                (get-points pcs-request)))))))
 
 (defun get-riders-plist (riders-table)
   (let ((riders-table-clean
@@ -121,6 +147,7 @@
         :team (second rider-list)
         :velo-points (third rider-list)
         :results (get-rider-results (first rider-list))))
+     ;; TODO: check if it's by 5 or 6
      (loop for i from 0 below (list-length riders-table-clean) by 6
            collect (loop for j from 1 below 4
                          collect (nth (+ i j) riders-table-clean))))))
@@ -146,5 +173,9 @@
    (get-riders-plist
     (get-riders-table riders-list-url))))
 
-(defparameter *uae-data* (get-all-rider-data "https://www.velogames.com/uae/2024/riders.php"))
-(str:to-file "uae-2024.json" (jonathan:to-json *uae-data*))
+;; (defparameter *uae-data* (get-all-rider-data "https://www.velogames.com/uae/2024/riders.php"))
+;; (str:to-file "uae-2024.json" (jonathan:to-json *uae-data*))
+;;
+(defparameter *gran-camino-data*
+  (get-all-rider-data "https://www.velogames.com/gran-camino/2024/riders.php"))
+;; (str:to-file "gran-camino-2024.json" (jonathan:to-json *gran-camino-data*))

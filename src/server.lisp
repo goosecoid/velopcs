@@ -36,7 +36,12 @@
     :uae
     "UAE Tour 2024"
     (uiop:read-file-string
-     #P"~/Documents/projects/velopcs/src/uae-2024.json"))))
+     #P"~/Documents/projects/velopcs/src/uae-2024.json"))
+   (list
+    :camino
+    "Gran Camino 2024"
+    (uiop:read-file-string
+     #P"~/Documents/projects/velopcs/src/gran-camino-2024.json"))))
 
 (defmacro with-page ((&key title) &body body)
   `(spinneret:with-html-string ()
@@ -143,6 +148,8 @@
               ("valencia"
                (table :valencia))
               ("uae"
-               (table :uae))))))
+               (table :uae))
+              ("camino"
+               (table :camino))))))
 
 ;; TODO: add route that calls the fetcher with a riders url
