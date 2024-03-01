@@ -59,6 +59,14 @@
           ((string-equal slug "guillermo-garcia") "guillermo-garcia-janeiro")
           ((string-equal slug "rafael-barbas") "rafael-elvas-barbas")
           ((string-equal slug "angel-sanchez") "angel-sanchez-rebollido")
+          ((string-equal slug "mikkel-frolich-honore") "mikkel-honore")
+          ((string-equal slug "jesus-herrada") "jesus-herrada-lopez")
+          ((string-equal slug "aadne-holter") "adne-holter")
+          ((string-equal slug "daniel-martinez") "daniel-felipe-martinez")
+          ((string-equal slug "romain-gregoire") "romain-gregoire1")
+          ((string-equal slug "frank-van-den-broeck") "frank-van-den-broek")
+          ((string-equal slug "filippo-colombo") "filippo-colombo1")
+          ((string-equal slug "kevin-inkelaar") "kevin-inkelaar")
           ;; ((string-equal slug "guillermo-garcia") "guillermo-garcia-janeiro")
           (t slug))))
 
@@ -134,6 +142,7 @@
                                     (cl-slug:asciify rider-name))))
                 (get-points pcs-request)))))))
 
+;;TODO: try to parse the table head to dynamically get the results
 (defun get-riders-plist (riders-table)
   (let ((riders-table-clean
           (loop for i from 0 below (array-dimension riders-table 0)
@@ -145,18 +154,18 @@
        (list
         :name (first rider-list)
         :team (second rider-list)
-        :velo-points (third rider-list)
+        :velo-points (fifth rider-list)
         :results (get-rider-results (first rider-list))))
      ;; TODO: check if it's by 5 or 6
      (loop for i from 0 below (list-length riders-table-clean) by 6
-           collect (loop for j from 1 below 4
+           collect (loop for j from 1 below 6
                          collect (nth (+ i j) riders-table-clean))))))
 
 (defun calculate-weighted-points (riders-plist)
   (loop for rider in riders-plist
         for vp = (parse-string-to-float (getf rider :velo-points))
-        for ucip = (parse-string-to-float (getf (getf rider :results) :uci))
-        for pcsp = (parse-string-to-float (getf (getf rider :results) :pcs))
+        for ucip = (or (parse-string-to-float (getf (getf rider :results) :uci)) 0)
+        for pcsp = (or (parse-string-to-float (getf (getf rider :results) :pcs)) 0)
         for wpcsp = (/ pcsp vp)
         for wucip = (/ ucip vp)
         collect (list
@@ -175,7 +184,9 @@
 
 ;; (defparameter *uae-data* (get-all-rider-data "https://www.velogames.com/uae/2024/riders.php"))
 ;; (str:to-file "uae-2024.json" (jonathan:to-json *uae-data*))
-;;
-(defparameter *gran-camino-data*
-  (get-all-rider-data "https://www.velogames.com/gran-camino/2024/riders.php"))
+;; (defparameter *gran-camino-data*
+;;   (get-all-rider-data "https://www.velogames.com/gran-camino/2024/riders.php"))
 ;; (str:to-file "gran-camino-2024.json" (jonathan:to-json *gran-camino-data*))
+;; (defparameter *superclasico-data*
+;;   (get-all-rider-data "https://www.velogames.com/sixes-superclasico/2024/riders.php"))
+;; (str:to-file "superclasico-2024.json" (jonathan:to-json *superclasico-data*))
