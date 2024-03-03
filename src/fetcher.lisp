@@ -142,7 +142,26 @@
                                     (cl-slug:asciify rider-name))))
                 (get-points pcs-request)))))))
 
+;; For superclasico, the table is different
 ;;TODO: try to parse the table head to dynamically get the results
+;; (defun get-riders-plist (riders-table)
+;;   (let ((riders-table-clean
+;;           (loop for i from 0 below (array-dimension riders-table 0)
+;;                 when (stringp (aref riders-table i))
+;;                   collect (aref riders-table i))))
+;;     (mapcar
+;;      (lambda (rider-list)
+;;        (format t "Fetching rider data for ~A~%" (first rider-list))
+;;        (list
+;;         :name (first rider-list)
+;;         :team (second rider-list)
+;;         :velo-points (fifth rider-list)
+;;         :results (get-rider-results (first rider-list))))
+;;      ;; TODO: check if it's by 5 or 6
+;;      (loop for i from 0 below (list-length riders-table-clean) by 6
+;;            collect (loop for j from 1 below 6
+;;                          collect (nth (+ i j) riders-table-clean))))))/
+
 (defun get-riders-plist (riders-table)
   (let ((riders-table-clean
           (loop for i from 0 below (array-dimension riders-table 0)
@@ -154,12 +173,12 @@
        (list
         :name (first rider-list)
         :team (second rider-list)
-        :velo-points (fifth rider-list)
+        :velo-points (third rider-list)
         :results (get-rider-results (first rider-list))))
      ;; TODO: check if it's by 5 or 6
-     (loop for i from 0 below (list-length riders-table-clean) by 6
+     (loop for i from 0 below (list-length riders-table-clean) by 5
            collect (loop for j from 1 below 6
-                         collect (nth (+ i j) riders-table-clean))))))
+                         collect (nth (+ i j) riders-table-clean))))))/
 
 (defun calculate-weighted-points (riders-plist)
   (loop for rider in riders-plist
@@ -190,3 +209,9 @@
 ;; (defparameter *superclasico-data*
 ;;   (get-all-rider-data "https://www.velogames.com/sixes-superclasico/2024/riders.php"))
 ;; (str:to-file "superclasico-2024.json" (jonathan:to-json *superclasico-data*))
+;; (defparameter *pn-data*
+;;   (get-all-rider-data "https://www.velogames.com/pn/2024/riders.php"))
+;; (str:to-file "pn-2024.json" (jonathan:to-json *pn-data*))
+;; (defparameter *tirreno-data*
+;;   (get-all-rider-data "https://www.velogames.com/tirreno-adriatico/2024/riders.php"))
+;; (str:to-file "tirreno-2024.json" (jonathan:to-json *tirreno-data*))

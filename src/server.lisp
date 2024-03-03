@@ -1,13 +1,13 @@
 (in-package :velopcs)
 
-;; (defparameter *app* (make-instance 'ningle:app))
+(defparameter *app* (make-instance 'ningle:app))
 
-;; (defparameter *wrapped-app*
-;;   (lack:builder
-;;    (:static
-;;     :path "/static/"
-;;     :root #P"./www/")
-;;    *app*))
+(defparameter *wrapped-app*
+  (lack:builder
+   (:static
+    :path "/static/"
+    :root #P"./www/")
+   *app*))
 
 ;; ;; TODO: roswell compatible
 ;; (defparameter *server*
@@ -46,7 +46,17 @@
     :clasico
     "Super Clasico 2024"
     (uiop:read-file-string
-     #P"~/Documents/projects/velopcs/src/superclasico-2024.json"))))
+     #P"~/Documents/projects/velopcs/src/superclasico-2024.json"))
+   (list
+    :paris-nice
+    "Paris-Nice 2024"
+    (uiop:read-file-string
+     #P"~/Documents/projects/velopcs/src/pn-2024.json"))
+   (list
+    :tirreno
+    "Tirreno-Adriatico 2024"
+    (uiop:read-file-string
+     #P"~/Documents/projects/velopcs/src/tirreno-2024.json"))))
 
 (defmacro with-page ((&key title) &body body)
   `(spinneret:with-html-string ()
@@ -157,6 +167,10 @@
               ("camino"
                (table :camino))
               ("clasico"
-               (table :clasico))))))
+               (table :clasico))
+              ("paris-nice"
+               (table :paris-nice))
+              ("tirreno"
+               (table :tirreno))))))
 
 ;; TODO: add route that calls the fetcher with a riders url
