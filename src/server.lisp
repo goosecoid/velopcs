@@ -56,7 +56,12 @@
     :tirreno
     "Tirreno-Adriatico 2024"
     (uiop:read-file-string
-     #P"~/Documents/projects/velopcs/src/tirreno-2024.json"))))
+     #P"~/Documents/projects/velopcs/src/tirreno-2024.json"))
+   (list
+    :catalunya
+    "Volta a Catalunya 2024"
+    (uiop:read-file-string
+     #P"~/Documents/projects/velopcs/src/catalunya-2024.json"))))
 
 (defmacro with-page ((&key title) &body body)
   `(spinneret:with-html-string ()
@@ -171,6 +176,8 @@
               ("paris-nice"
                (table :paris-nice))
               ("tirreno"
-               (table :tirreno))))))
+               (table :tirreno))
+              ("catalunya"
+               (table :catalunya))))))
 
 ;; TODO: add route that calls the fetcher with a riders url

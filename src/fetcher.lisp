@@ -215,3 +215,6 @@
 ;; (defparameter *tirreno-data*
 ;;   (get-all-rider-data "https://www.velogames.com/tirreno-adriatico/2024/riders.php"))
 ;; (str:to-file "tirreno-2024.json" (jonathan:to-json *tirreno-data*))
+;; (defparameter *catalunya-data*
+;;   (get-all-rider-data "https://www.velogames.com/catalunya/2024/riders.php"))
+;; (str:to-file "catalunya-2024.json" (jonathan:to-json *catalunya-data*))
